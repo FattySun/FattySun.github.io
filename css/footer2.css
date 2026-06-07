@@ -1,0 +1,153 @@
+/*
+**
+** 椤甸潰搴曢儴鐨勬牱寮�
+**
+*/
+/*---------妯″潡8缁撴潫  footer------*/
+.footerBox {
+    /* background-color: #3e4144; */
+    color: #d5d5d7;
+}
+
+.footer-bottom .footerTxt {
+    font-size: 13px;
+}
+
+.modular8Cont {
+    padding: 40px 0 30px;
+    background-color: #3e4144;
+    text-align: center;
+}
+
+    .modular8Cont a {
+        color: #1884a6;
+    }
+
+    .modular8Cont .linkIco {
+        padding-top: 10px;
+    }
+
+        .modular8Cont .linkIco a {
+            display: inline-block;
+            margin-right: 18px;
+        }
+
+            .modular8Cont .linkIco a img {
+                display: block;
+                width: 41px;
+            }
+
+            .modular8Cont .linkIco a:last-child {
+                margin-right: 0;
+            }
+	
+        .copyright .ico {
+            display: inline-block;
+            margin-right: 18px;
+        }
+		
+.copyright a img {
+                display: block;
+                width: 41px;
+            }
+
+.pcQRcode {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 999999;
+    display: none;
+}
+
+    .pcQRcode.on {
+        display: block;
+    }
+
+.qrCodeBox {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .qrCodeBox .qrImgBox {
+        width: 40%;
+        max-width: 400px;
+        position: relative;
+    }
+
+        .qrCodeBox .qrImgBox img {
+            display: block;
+            width: 100%;
+        }
+
+.modular8Cont .linkIco .pc {
+    display: inline-block;
+}
+
+.modular8Cont .linkIco .mo {
+    display: none;
+}
+
+.qrCodeBok {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-image: url(./img/pcShowPosListBok.png);
+    cursor: pointer;
+}
+
+@media screen and (max-width:1400px) {
+}
+
+@media screen and (max-width:1160px) {
+}
+
+@media screen and (max-width:990px) {
+    /*妯″潡8*/
+    .modular8Cont .linkIco a img {
+        display: block;
+        width: 34px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    /*.pcQRcode.on {
+        display: none;
+    }
+
+    .modular8Cont .linkIco .pc {
+        display: none;
+    }
+
+    .modular8Cont .linkIco .mo {
+        display: inline-block;
+    }
+
+    .pcQRcode {
+        display: none !important;
+    }*/
+
+    .footerTxt {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:500px) {
+}
+
+@media screen and (max-width:414px) {
+    .footerTxt {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:321px) {
+}
