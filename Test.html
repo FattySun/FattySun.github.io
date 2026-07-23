@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+  </head>
+  <body>
+    <div>首页文章</div>
+    <button class="btn" id="btnId">确定按钮</button>
+    <input type="submit" value="submit提交按钮" name="submit" class="submit">
+    <a href="https://baidu.com">前往百度</a>
+  </body>
+  <script src="https://app.beschannels.com/js-sdk/collect-1.0.1.min.js"></script>
+  <script>
+    window.myCollect = new window.Collect({
+      org_id:'orga198c51108352ad4c9a8980813e1a7c9',
+      system_type: 'another',
+      event_props: {
+        source: 'web',
+      },
+    })
+    window.myCollect.init({
+      page_view_auto: true,
+      element_click_auto: true
+    })
+
+  </script>
+</html>
