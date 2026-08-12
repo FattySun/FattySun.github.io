@@ -39,8 +39,9 @@
       <script src="./js/jquery.min.js"></script>
      <script type="text/javascript" src="https://player.youku.com/jsapi"></script>
     <script src="https://img.elq.item24.com/Web/itemIndustrietechnikGmbH/%7B3b777c17-ef8f-4ab9-bfe0-4881b7594811%7D_maxcdn-bootstrap.3.3.7.min.js"></script>
-    <link href="https://media.item24.com/Eloqua/css/2021/item-tmpl-2021.css" rel="stylesheet">
-    
+    <!-- <link href="https://media.item24.com/Eloqua/css/2021/item-tmpl-2021.css" rel="stylesheet"> -->
+     <link href="./css/item-tmpl-2026.css" rel="stylesheet">
+     
     <!-- <script src="https://media.item24.com/Eloqua/Landingpages/custom/2016/html5lightbox/html5lightbox.js"></script> -->
     <script src="js/html5lightbox.js"></script>
 
@@ -50,6 +51,19 @@
     <link rel="stylesheet" href="./css/footer2.css">
     <script src="./js/footer2.js"></script>
 
+
+<style>
+
+/* input{
+ font: initial !important;
+   font-size: 14px !important;
+} */
+
+/* .form-container{
+  font-size: initial !important;
+} */
+ 
+    </style>
 </head>
 
 <body>
@@ -124,7 +138,7 @@
                         <article class="article usp-box text-center">
                             <div class="usp-box-header" data-mh="usp2_header_A">
                                 <div class="icon hidden-xs" id="img-circle">
-                                    <img elq-edit="true" class="img-circle" src="https://img.elq.item24.com/EloquaImages/clients/itemIndustrietechnikGmbH/%7Bf2f9d2af-01cf-45ea-899e-108567e3f8e3%7D_placeholder-82x82.png">
+                                    <img elq-edit="true" class="img-circle" src="./img/page1-icon1.png">
                                 </div>
                                 <h3 elq-edit="true" class="small">优势一</h3>
                             </div>
@@ -137,7 +151,7 @@
                         <article class="article usp-box text-center">
                             <div class="usp-box-header" data-mh="usp2_header_A">
                                 <div class="icon hidden-xs" id="img-circle">
-                                    <img elq-edit="true" class="img-circle" src="https://img.elq.item24.com/EloquaImages/clients/itemIndustrietechnikGmbH/%7Bf2f9d2af-01cf-45ea-899e-108567e3f8e3%7D_placeholder-82x82.png">
+                                    <img elq-edit="true" class="img-circle" src="./img/page1-icon2.png">
                                 </div>
                                 <h3 elq-edit="true" class="small">优势二</h3>
                             </div>
@@ -150,7 +164,7 @@
                         <article class="article usp-box text-center">
                             <div class="usp-box-header" data-mh="usp2_header_A">
                                 <div class="icon hidden-xs" id="img-circle">
-                                    <img elq-edit="true" class="img-circle" src="https://img.elq.item24.com/EloquaImages/clients/itemIndustrietechnikGmbH/%7Bf2f9d2af-01cf-45ea-899e-108567e3f8e3%7D_placeholder-82x82.png">
+                                    <img elq-edit="true" class="img-circle" src="./img/page1-icon3.png">
                                 </div>
                                 <h3 elq-edit="true" class="small">优势三</h3>
                             </div>
@@ -403,8 +417,11 @@
     </div>
 
 
-    <div elq-delete="true">
-        <!--    表单模块    -->
+
+
+
+    <!--    表单模块    -->
+    <!-- <div elq-delete="true">
         <section class="masthead form-wrap" id="chapter_form">
             <div class="container">
                 <div elq-edit="true" elq-delete="true" id="form" class="">
@@ -413,60 +430,30 @@
                             <div class="col-lg-12">
                                 <div class="row text-center inner">
                                     <div class="col-lg-3 col-md-3 col-sm-3">
-                                        <input placeholder="示例输入框" class="required-field" type="text">
-                                        <span class="field-error">此字段为必填项</span>
+                                        <input placeholder="姓名" class="required-field" type="text">
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-sm-3">
-                                        <input placeholder="示例邮箱输入框" class="required-field" type="email">
-                                        <span class="field-error">此字段为必填项</span>
-                                        <span class="field-error">请输入有效的邮箱地址</span>
+                                        <input placeholder="邮箱" class="required-field" type="email">
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-sm-3">
-                                        <select id="select" class="chosen-select required-field">
-                                            <option value="choose" selected="selected">请选择</option>
-                                            <option>选项一</option>
-                                            <option>选项二</option>
-                                            <option>选项三</option>
-                                        </select>
-                                        <span class="field-error">此字段为必填项</span>
+                                        <input placeholder="手机号" class="required-field" type="text">
                                     </div>
-
                                 </div>
                                 <div class="row text-center inner">
                                     <div class="col-lg-3 col-md-3 col-sm-3">
-                                        <input placeholder="示例输入框" class="required-field" type="text">
-                                        <span class="field-error">此字段为必填项</span>
+                                        <input placeholder="职位" class="required-field" type="text">
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-sm-3">
-                                        <input placeholder="示例输入框" class="required-field" type="text">
-                                        <span class="field-error">此字段为必填项</span>
+                                        <input placeholder="公司名称" class="required-field" type="text">
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-sm-3">
-                                        <input placeholder="示例输入框" class="required-field" type="text">
-                                        <span class="field-error">此字段为必填项</span>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-3">
-                                        <input placeholder="示例输入框" class="required-field" type="text">
-                                        <span class="field-error">此字段为必填项</span>
+                                        <input placeholder="省份" class="required-field" type="text">
                                     </div>
                                 </div>
                                 <div class="row inner last">
-                                    <div class="col-lg-12">
-
-                                        <input id="test" name="test" type="checkbox">
-                                        <div class="fake-check"></div>
-                                        <label for="test">我希望通过邮件接收后续实用资讯。
-                                        </label>
-                                        <br>
-                                        <input class="required-field" id="test2" name="test2" type="checkbox">
-                                        <div class="fake-check"></div>
-                                        <label for="test2">我已阅读并理解
-                                            <a href="">隐私政策</a>。
-                                        </label>
-                                    </div>
                                 </div>
                                 <div class="submit-container">
-                                    <button type="submit" class="cta submit">立即下载</button>
+                                    <button type="submit" class="cta submit">免费获取</button>
                                 </div>
                             </div>
                         </div>
@@ -475,11 +462,62 @@
             </div>
             <div elq-delete="true"><div class="spacer-big"></div></div>
         </section>
-    </div>
+    </div> -->
+
+    <!--    表单模块    -->
+<div elq-delete="true">
+    <section class="masthead form-wrap" id="chapter_form">
+        <div class="container">
+            <div elq-edit="true" elq-delete="true" id="form" class="">
+                <div>
+                    <p>请填写联系方式免费获取产品目录</p>
+                </div>
+                <form id="myForm">
+                    <div class="row form-container">
+                        <div class="col-lg-12">
+                            <div class="row text-center inner">
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <input placeholder="姓名" class="required-field" name="FullName" type="text">
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <input placeholder="邮箱" class="required-field" name="Email" type="email">
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <input placeholder="手机号" class="required-field" name="MobilePhone" type="text">
+                                </div>
+                            </div>
+                            <div class="row text-center inner">
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <input placeholder="职位" class="required-field" name="Position" type="text">
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <input placeholder="公司名称" class="required-field" name="Company" type="text">
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <input placeholder="省份" class="required-field" name="Province" type="text">
+                                </div>
+                            </div>
+                            <div class="row inner last">
+                            </div>
+                            <div class="submit-container">
+                                <button type="submit" class="cta submit">免费获取</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div id="formMsg" class="hidden">
+                    <p>感谢填写</p>
+                </div>
+            </div>
+        </div>
+        <div elq-delete="true"><div class="spacer-big"></div></div>
+    </section>
+</div
 
 
 
-        <!-- FOOTER -->
+
+        <!-- 页脚 -->
         <footer class="footer-bottom">
             <!-- pc 二维码 -->
             <div class="pcQRcode">
@@ -527,13 +565,78 @@
 
 </main>
 <script>eml = '<span class="eloquaemail">EmailAddress</span>';</script>
-<script src="https://media.item24.com/Eloqua/js/2020/factorizeELQforms_130320.js"></script>
+<!-- <script src="https://media.item24.com/Eloqua/js/2020/factorizeELQforms_130320.js"></script> -->
 <!-- <script src="https://media.item24.com/Eloqua/js/2021/item-tmpl-2021.js"></script> -->
 <!-- <script src="https://media.item24.com/Eloqua/js/2021/bgVideo.js"></script> -->
 <script src="js/item-tmpl-2026.js"></script>
 <script src="js/bgVideo.js"></script>
 <script src="https://img.elq.item24.com/Web/itemIndustrietechnikGmbH/%7Bfc9d2080-896a-40fc-95a4-2cf1648b5234%7D_sources_290319.js"></script>
 <!-- 测试 -->
+
+
+
+<script>
+$(function(){
+    // 表单提交
+    $('#myForm').on('submit', function(e){
+        e.preventDefault(); //阻止浏览器默认表单刷新提交
+
+        var postData = {
+            "City": "",
+            "Company": "",
+            "Email": "",
+            "FullName": "",
+            "MobilePhone": "",
+            "Position": "",
+            "Province": "",
+            "activity_id": "",
+            "anonymous_id": "28D2B19347111FFB",
+            "clientresources": {
+                "customer_id": "eac46865‑c090‑14fb‑51b9‑f522e38a3a7b"
+            },
+            "fingerprint_id": "ZQ_6a787a96zIVPzvQxGiSNEwNNQaQvUeotckyEsFBz",
+            "form_id": 14068,
+            "is_submit": 1,
+            "module": "",
+            "org_id": "orga198c51108352ad4c9a8980813e1a7c9",
+            "source": {
+                "utm": null
+            },
+            "system_type": "renew",
+            "target_type": "alone",
+            "unique_id": "",
+            "wechat_appid": null,
+            "wechat_fans_info": null,
+            "wechat_openid": null,
+            "wx_id": ""
+        };
+
+        //读取输入框值赋值给postData
+        postData.FullName = $('input[name="FullName"]').val().trim();
+        postData.Email = $('input[name="Email"]').val().trim();
+        postData.MobilePhone = $('input[name="MobilePhone"]').val().trim();
+        postData.Position = $('input[name="Position"]').val().trim();
+        postData.Company = $('input[name="Company"]').val().trim();
+        postData.Province = $('input[name="Province"]').val().trim();
+
+        $.ajax({
+            url: "https://app.beschannels.com/api/cdp/form-app/commit",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify(postData),
+            dataType: "json",
+            success: function(res){
+                console.log("提交成功", res);
+                $('#formMsg').removeClass('hidden');
+            },
+            error: function(xhr){
+                console.error("提交失败", xhr);
+            }
+        });
+    });
+});
+</script>
+
 
 </body>
 </html>
