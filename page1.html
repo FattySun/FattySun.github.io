@@ -638,5 +638,21 @@ $(function(){
 </script>
 
 
+  <script src="https://app.beschannels.com/js-sdk/collect-1.0.1.min.js"></script>
+  <script>
+    window.myCollect = new window.Collect({
+      org_id:'orga198c51108352ad4c9a8980813e1a7c9',
+      system_type: 'another',
+      event_props: {
+        source: 'web',
+      },
+    })
+    window.myCollect.init({
+      page_view_auto: true,
+      element_click_auto: true
+    })
+  </script>
+    
+
 </body>
 </html>
