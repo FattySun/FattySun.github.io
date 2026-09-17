@@ -1015,7 +1015,7 @@ body button[type="submit"]:hover::after{
 
             .infoTextSlider {
                 position: absolute;
-                max-width: 600px;
+                max-width: 650px;
                 background-color: #ffffff;
                 padding: 20px;
                 bottom: 20px;
@@ -1063,7 +1063,7 @@ body button[type="submit"]:hover::after{
             .infoTextSlider {
                 position: absolute;
                 left: 50%;
-                max-width: 600px;
+                max-width: 650px;
                 background-color: #ffffff;
                 padding: 20px;
                 margin-top: -18%;
@@ -1072,7 +1072,7 @@ body button[type="submit"]:hover::after{
             /*For IE 11  Slider	*/
             _:-ms-fullscreen, :root
             .infoTextSlider {
-                max-width: 600px;
+                max-width: 650px;
                 background-color: #ffffff;
                 padding: 20px;
                 margin-top: -19%;
