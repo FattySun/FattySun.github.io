@@ -19,51 +19,66 @@
     text-align: center;
 }
 
-    .modular8Cont a {
-        color: #1884a6;
-    }
+.modular8Cont a {
+    color: #1884a6;
+}
 
-    .modular8Cont .linkIco {
-        padding-top: 10px;
-    }
+.modular8Cont .linkIco {
+    padding-top: 10px;
+}
 
-        .modular8Cont .linkIco a {
-            display: inline-block;
-            margin-right: 18px;
-        }
+.modular8Cont .linkIco a {
+    display: inline-block;
+    margin-right: 18px;
+}
 
-            .modular8Cont .linkIco a img {
-                display: block;
-                width: 41px;
-            }
+.modular8Cont .linkIco a img {
+    display: block;
+    width: 41px;
+}
 
-            .modular8Cont .linkIco a:last-child {
-                margin-right: 0;
-            }
-	
-        .copyright .ico {
-            display: inline-block;
-            margin-right: 18px;
-        }
-		
+.modular8Cont .linkIco a:last-child {
+    margin-right: 0;
+}
+
+.copyright .ico {
+    display: inline-block;
+    margin-right: 18px;
+}
+
 .copyright a img {
-                display: block;
-                width: 41px;
-            }
+    display: block;
+    width: 41px;
+}
 
 .pcQRcode {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 999999;
     display: none;
 }
 
-    .pcQRcode.on {
-        display: block;
-    }
+.pcQRcode.on {
+    display: block;
+}
+
+.pcDYQRcode {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999999;
+    display: none;
+}
+
+.pcDYQRcode.on {
+    display: block;
+}
+
 
 .qrCodeBox {
     width: 100%;
@@ -75,16 +90,16 @@
     align-items: center;
 }
 
-    .qrCodeBox .qrImgBox {
-        width: 40%;
-        max-width: 400px;
-        position: relative;
-    }
+.qrCodeBox .qrImgBox {
+    width: 40%;
+    max-width: 400px;
+    position: relative;
+}
 
-        .qrCodeBox .qrImgBox img {
-            display: block;
-            width: 100%;
-        }
+.qrCodeBox .qrImgBox img {
+    display: block;
+    width: 100%;
+}
 
 .modular8Cont .linkIco .pc {
     display: inline-block;
@@ -104,13 +119,12 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:1400px) {
-}
+@media screen and (max-width:1400px) {}
 
-@media screen and (max-width:1160px) {
-}
+@media screen and (max-width:1160px) {}
 
 @media screen and (max-width:990px) {
+
     /*妯″潡8*/
     .modular8Cont .linkIco a img {
         display: block;
@@ -140,8 +154,7 @@
     }
 }
 
-@media screen and (max-width:500px) {
-}
+@media screen and (max-width:500px) {}
 
 @media screen and (max-width:414px) {
     .footerTxt {
@@ -149,5 +162,4 @@
     }
 }
 
-@media screen and (max-width:321px) {
-}
+@media screen and (max-width:321px) {}
