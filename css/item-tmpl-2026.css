@@ -172,6 +172,7 @@ body button[type="submit"]:hover::after{
             margin: 40px 0px 0px;
             padding: 15px 25px;
             height: auto;
+            min-height: 180px;
             color: #fff;
         }
 
