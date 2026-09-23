@@ -96,11 +96,11 @@
             line-height: 1.2em;
         }
 
-        @media (min-width: 768px) {
+        /* @media (min-width: 768px) {
             .container {
                 width: 100%;
             }
-        }
+        } */
 
         .form-error {
             margin-top: 10px;
@@ -124,7 +124,7 @@
 
     <header>
         <section class="masthead header">
-            <div class="container">
+            <div style="margin: 0px 10px;">
                 <div class="logo" id="item-logo">
                     <img src="https://media.item24.com/Eloqua/img/item-logo.svg" alt="item品牌标识">
                 </div>
@@ -140,7 +140,6 @@
         <div elq-delete="true">
             <section class="masthead pad0 acco-slider">
                 <div class="slider-contents">
-
                     <div elq-delete="true">
                         <div class="carousel-item-t">
                             <div elq-edit="true">
@@ -148,7 +147,7 @@
                                 <img src="./img/page1-header.webp" class="hide-large">
                             </div>
                             <div data-class="carousel-cpt" class="">
-                                <div data-class="infoTextSlider" class="container">
+                                <div data-class="infoTextSlider-tran" class="container">
                                     <div class="col-lg-12 col-md-12 col-sm-12">
                                         <h2 elq-edit="true" elq-delete="true">适配多样生产场景，定制专属工作台方案
                                         </h2>
@@ -159,16 +158,15 @@
                                             <p>摆脱固定工位局限，打造高效作业单元
                                             </p>
                                         </article>
-                                        <!-- <div class="text-left padtop20 padbot20" elq-edit="true" elq-delete="true">
-                                        <a class="cta-main smooth" data-set-params="true" target="_blank" href="">立即下载</a>
-                                    </div> -->
+                                        <div class="text-left padtop20 padbot20" elq-edit="true" elq-delete="true">
+                                            <a class="cta-main smooth" data-set-params="true" target="_blank"
+                                                href="">立即下载</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
                 <div class="slider-custom-container">
 
@@ -323,16 +321,16 @@
                             <div class="default-frame frame g type-gridelements_pi1 plugin-type bevideo_full">
                                 <div class="frame-inner wrapper">
                                     <div class="video-teaser type-wide video-from-youtube play-on-focus-0 cover-image">
-                                        <div class="video-teaser-inner small-video">
+                                        <div class="video-teaser-inner small-video-xxx">
                                             <div class="image-wrap" id="small-video-1" elq-edit="true">
                                                 <img src="./img/page1-p1.png" data-video-url="XNjU0NzkwOTQwMA"
                                                     data-container-id="small-video-1">
                                             </div>
 
-                                            <div class="text-wrap text-center">
+                                            <!-- <div class="text-wrap text-center">
                                                 <img class="play-video"
                                                     src="https://media.item24.com/Eloqua/img/play-video.png">
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -366,16 +364,16 @@
                             <div class="default-frame frame g type-gridelements_pi1 plugin-type bevideo_full">
                                 <div class="frame-inner wrapper">
                                     <div class="video-teaser type-wide video-from-youtube play-on-focus-0 cover-image">
-                                        <div class="video-teaser-inner small-video">
+                                        <div class="video-teaser-inner small-video-xxx">
                                             <div class="image-wrap" id="small-video-2" elq-edit="true">
                                                 <img src="./img/page1-p2.png" data-video-url="XNjU1Njk3NzU3Ng"
                                                     data-container-id="small-video-2">
                                             </div>
 
-                                            <div class="text-wrap text-center">
+                                            <!-- <div class="text-wrap text-center">
                                                 <img class="play-video"
                                                     src="https://media.item24.com/Eloqua/img/play-video.png">
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -572,7 +570,7 @@
         </div> -->
         <div elq-delete="true">
             <section class="masthead form-wrap" id="chapter_form">
-                <div class="container">
+                <div class="container" style="margin-top: -40px;">
                     <div elq-edit="true" elq-delete="true" id="form">
                         <div>
                             <p class="myh2">请填写联系方式免费获取产品目录</p>
@@ -776,6 +774,8 @@
                     }
                 });
             });
+
+            $('span.slidecontrols').hide();
         });
     </script>
 
