@@ -1045,6 +1045,13 @@ a.cta-main:hover {
         bottom: 20px;
     }
 
+    .infoTextSlider-tran {
+        position: absolute;
+        max-width: 650px;
+        padding: 20px;
+        bottom: 20px;
+    }
+
     .carousel-inner>.item>img {
         max-width: unset;
         width: auto !important;
@@ -1093,11 +1100,26 @@ a.cta-main:hover {
         margin-top: -18%;
     }
 
+    .infoTextSlider-tran {
+        position: absolute;
+        left: 55%;
+        max-width: 650px;
+        padding: 20px;
+        margin-top: -25%;
+    }
+
     /*For IE 11  Slider	*/
     _:-ms-fullscreen,
     :root .infoTextSlider {
         max-width: 650px;
         background-color: #ffffff;
+        padding: 20px;
+        margin-top: -19%;
+    }
+
+    _:-ms-fullscreen,
+    :root .infoTextSlider-tran {
+        max-width: 650px;
         padding: 20px;
         margin-top: -19%;
     }
