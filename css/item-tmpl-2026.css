@@ -460,7 +460,7 @@ label.form-error {
 
 input[type="text"],
 input[type="email"] {
-    width: 99%;
+    width: 90%;
     border: 1px solid #cccccc;
     padding: 11px 0px 6px 15px;
     border-radius: 5px;
